@@ -122,7 +122,7 @@ ORDER BY category DESC;
 
 ```
 
-7. **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year**:
+7. **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year** 
 ```sql
 WITH monthly_sales AS (
     SELECT
@@ -150,7 +150,7 @@ FROM ranked_sales
 WHERE rn = 1;
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales ** 
 ```sql
 SELECT 
     customer_id,
@@ -160,7 +160,7 @@ GROUP BY customer_id,
 ORDER BY total_sales DESC;
 ```
 
-9. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
+9. **Write a SQL query to find the number of unique customers who purchased items from each category**
 ```sql
 SELECT 
     category,    
