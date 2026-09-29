@@ -153,10 +153,10 @@ WHERE rn = 1;
 8. **Write a SQL query to find the top 5 customers based on the highest total sales** 
 ```sql
 SELECT 
-    customer_id,
-    SUM(total_sale) as total_sales
+customer_id,
+SUM(total_sale) as total_sales
 FROM retail_sales
-GROUP BY customer_id,
+GROUP BY customer_id
 ORDER BY total_sales DESC;
 ```
 
